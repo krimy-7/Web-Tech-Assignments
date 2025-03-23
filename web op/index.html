@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-section">
+            <img src="logo rw.png"><br>
+            <div class="dashboard-image">
+                <img src="dashboard.png" alt="Dashboard Preview">
+            </div>
+            <h2>Easy to use Dashboard</h2>
+            <p>Choose the best of product/services and get a bare metal server at the lowest prices.</p>
+        </div>
+
+        
+        <div class="right-section">
+            <h2>Create Your Account</h2>
+            
+            <button class="google-btn">
+                <img src="google-icon.png" alt="Google Logo" width="45"/>Sign up with Google
+            </button>
+            
+            <div class="or-divider">OR</div>
+
+              
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="password" placeholder="Password" required minlength="8">
+
+
+                <small>Must be 8 character at least</small>
+                
+                
+                <label class="checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                </label>
+
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="#">Sign In</a></p>
+        </div>
+    </div>
+</body>
+</html>

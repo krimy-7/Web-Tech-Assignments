@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.left-section {
+    width: 50%;
+    background: #0A0024;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4d6d;
+}
+
+.dashboard-image img {
+    width: 100%;
+    max-width: 250px;
+    border-radius:10px;
+}
+
+.left-section h2 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.left-section p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.right-section {
+    width: 50%;
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.google-signup {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 0.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    border-radius: 1px;
+    width: 25px;%;
+    margin-button: 5px;
+}
+
+.google-signup:hover {
+    background: #f0f0f0;
+}
+.or-divider {
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+    color: #888;
+  }
+  
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+   
+   width:100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px; 
+}
+
+.checkbox input {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.register-btn {
+    background: #5A57FB;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-btn:hover {
+    background: #4a47e2;
+}
+
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-link a {
+    color: #5A57FB;
+    text-decoration: none;
+}
+
+
+.google-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    width: 100%; /* Optional - for full width */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* spacing between icon and text */
+  }
